@@ -1,0 +1,45 @@
+* {
+	font-family: 'Jua', sans-serif;
+	margin: 10px;
+	padding: 5px;
+}
+
+table,
+th,
+td {
+	/* border: 1px solid steelblue; */
+	border-collapse: collapse;
+	font-size: 15px;
+}
+
+i {
+	font-size: 25px;
+}
+h2,h5{
+	color:#f4623a;
+	text-align: center;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+input{
+	border: 0px;
+	border-bottom: 1px solid skyblue;
+	width: 200px;
+	font-size: 20px;
+}
+.join_title{
+	font-size: 20px;
+	font-weight: bold;
+	color: gray;
+}
+.button{ 
+	background-color: white;
+	border: 2px solid darkgray;
+	padding: 16px 32px;
+}
+.button:hover{
+	background-color: skyblue; 
+	color: white;
+}
