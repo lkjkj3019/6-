@@ -1,0 +1,60 @@
+<!-- 자바 코드 넣으세요. -->
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <!-- title명 변경 로그인 페이지 > Login_page -->
+    <title>Login_page</title>
+    <!-- css 적용 링크입니다. -->
+    <link rel="stylesheet" href="css/login_style.css">
+    <!-- "Noto Sans KR" 웹폰트 적용 링크입니다.-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- action명 변경 "StudentLogin" > "student_login" -->
+    <form action="student_login" method="post" id="login">
+
+        <fieldset>
+
+            <!-- login title -->
+            <legend>
+                <h1>Login.jsp</h1>
+            </legend>
+
+            <h3>아이디와 비밀번호를 입력하세요.</h3>
+
+            <!-- login form -->
+            <div class="login_form">
+                <ul class="idpw">
+                    <!-- name,id 변경 "Id" > "userid" / "Pw" > "userpw" -->
+                    <li><label for="userid">아이디</label><input type="text" name="userid" id="userid"></li>
+                    <li><label for="userpw">비밀번호</label><input type="password" name="userpw" id="userpw"></li>
+                    <li><button onclick="Login()">로그인</button></li>
+                </ul>
+                <ul class=j>
+                    <li>아이디가 없으신가요? <button onclick="join()">회원가입</button></li>
+                </ul>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+<script>
+    function Login() {
+        login.submit();
+    }
+
+    function join() {
+        location.href = "Join.jsp"
+    }
+
+</script>
+
+</html>

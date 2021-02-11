@@ -1,0 +1,109 @@
+/* login_style.css */
+
+
+/* body_stytle */
+body {
+    min-width: 320px;
+    border: none;
+    background-color: #fff;
+    font-family: "Noto Sans KR";
+}
+
+/* fieldset_stytle */
+fieldset {
+    width: 320px;
+    border: 2px solid #66C;
+    padding: 20px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* login title_stytle */
+fieldset > legend {
+    font-size: 18px;
+    color: #66C;
+    text-align: center;
+}
+
+fieldset > h3 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #999;
+    text-align: center;
+}
+
+/* ul_list_stytle */
+.idpw {
+    list-style-type: none;
+}
+
+
+/* login form_stytle */
+.login_form {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login_form > .idpw {
+    position: relative;
+    width: 370px;
+    height: 70px;
+}
+
+.login_form > .idpw > li {
+    padding: 0 0 10px;
+}
+
+.login_form > .idpw > li > label {
+    display: inline-block;
+    width: 64px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+
+.login_form > .idpw > li > input {
+    width: 140px;
+    height: 24px;
+    padding: 0px;
+    border: 2px solid #ccc;
+}
+
+.login_form > .idpw > li > button {
+    display: block;
+    width: 100px;
+    height: 66px;
+    border: none;
+    padding: 0;
+    background-color: #66C;
+    position: absolute;
+    right: 40px;
+    top: 0px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    line-height: 66px;
+}
+
+.login_form > .j {
+    padding: 0 0 0 60px;
+    font-size: 14px;
+    font-weight: 00;
+    color: #666;
+}
+
+.login_form > .j > li > button {
+    width: 70px;
+    height: 24px;
+    border: none;
+    padding: 0;
+    background-color: #69F;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
